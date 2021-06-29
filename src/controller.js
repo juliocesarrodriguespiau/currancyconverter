@@ -6,7 +6,7 @@ class Convert {
         try {
             const { from, to, amount } = req.params;
 
-            //validar/testar o retorno from, to, amount.
+            //validar o retorno from, to, amount.
 
             const result = await service.converter(from, to, amount);
 
