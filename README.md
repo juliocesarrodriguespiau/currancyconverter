@@ -47,6 +47,8 @@ $ node src/index.js
 ```
 • No [Insomnia](https://insomnia.rest/download) crie um método Get e insira a url (http://localhost:8001/convert/USD/BRL/1).
 
+• A porta utilizada está sendo a :8081.
+
 • Substitua o parâmetro `USD` pelo código que deseja usar como moeda base.
 
 • Substitua o parâmetro `BRL` pelo código que deseja usar como moeda-alvo.
@@ -63,7 +65,7 @@ url: http://localhost:8001/convert/USD/BRL/1
 Resultado/Reposta:
 
 {
-  "result": 4.9406
+  "result2": "4.94"
 }
 
 Exemplo Conversão Indireta:
@@ -72,7 +74,7 @@ url: http://localhost:8001/convert/USD/BRL/10
 Resultado/Resposta:
 
 {
-  "result": 49.406
+  "result2": "49.41"
 }
 ```
 
