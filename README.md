@@ -57,7 +57,9 @@ http://localhost:8001/convert/USD/BRL/1
 
 ![Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG)
 
-<img alt="APINodeCourrancyConverterDireta" src="https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG">
+<p align="center">
+    <img alt="APINodeCourrancyConverterDireta" src="https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG">
+</p>
 
 Exemplo Conversão Indireta:
 http://localhost:8001/convert/USD/BRL/10
