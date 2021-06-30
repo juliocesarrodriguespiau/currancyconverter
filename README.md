@@ -66,6 +66,8 @@ Resultado/Reposta:
   "result": 4.9406
 }
 
+<img src="https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG?raw=true" width="250">
+
 Exemplo Conversão Indireta:
 url: http://localhost:8001/convert/USD/BRL/10
 
