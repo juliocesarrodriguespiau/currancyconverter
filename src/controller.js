@@ -7,7 +7,6 @@ class Convert {
             const { from, to, amount } = req.params;
 
             //validar o retorno from, to, amount.
-
             const result = await service.converter(from, to, amount);
 
             resp.status(200).send({result});
