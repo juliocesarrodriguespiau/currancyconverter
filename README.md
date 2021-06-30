@@ -20,7 +20,7 @@ Uma ferramenta para executar os testes e requisições da API como o [Insomnia](
 - [Axios](https://www.npmjs.com/package/axios)
 - [Cors](https://www.npmjs.com/package/cors)
 
-### Instale as dependências, frameworks e bibliotecas
+### Instale as dependências
 ```sh
 $ npm install
 $ npm start
