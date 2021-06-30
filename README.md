@@ -43,24 +43,22 @@ $ node src/index.js
 
 ## ⚙️ **Obtendo os resultados**
 
-### Exibe a conversão indireta das moedas escolhidas
-```
-MÉTODO GET
-http://localhost:8001/convert/USD/BRL/1
-```
 ### Como executar as API Currancy Converter
 ```
+• No [Insomnia](https://insomnia.rest/download) crie um método Get e insira a url (http://localhost:8001/convert/USD/BRL/1).
 
-• Substitua `USD` pelo código que deseja usar como moeda base.
+• Substitua o parâmetro `USD` pelo código que deseja usar como moeda base.
 
-• Substitua `BRL` pelo código que deseja usar como moeda-alvo.
+• Substitua o parâmetro `BRL` pelo código que deseja usar como moeda-alvo.
+
+• Substitua o parâmetro `1` pela quantidade que deseja converter da moeda-alvo.
 
 Os códigos de moeda (USD, BRL, ARS) seguem o padrão [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)
 
-Através da API Currancy Converter exibimos a conversão direta das moedas passadas pelos parâmetros da request:
+Através da API Currancy Converter exibimos a conversão direta e indireta das moedas passadas pelos parâmetros da request:
 
 Exemplo Conversão Direta:
-http://localhost:8001/convert/USD/BRL/1
+url: http://localhost:8001/convert/USD/BRL/1
 
 Resultado/Reposta:
 
@@ -69,7 +67,7 @@ Resultado/Reposta:
 }
 
 Exemplo Conversão Indireta:
-http://localhost:8001/convert/USD/BRL/10
+url: http://localhost:8001/convert/USD/BRL/10
 
 Resultado/Resposta:
 
