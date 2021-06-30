@@ -15,7 +15,7 @@ Um bom editor de códigos como [VSCode](https://code.visualstudio.com/) para abr
 
 Uma ferramenta para executar os testes e requisições da API como o [Insomnia](https://insomnia.rest/download). 
 
-- [Node.js](https://nodejs.org/en/)
+- [NodeJS](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [Axios](https://www.npmjs.com/package/axios)
 - [Cors](https://www.npmjs.com/package/cors)
@@ -55,17 +55,20 @@ Através do MÉTODO GET exibimos a conversão direta de qualquer moeda passadas 
 Exemplo Conversão Direta:
 http://localhost:8001/convert/USD/BRL/1
 
-![Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG)
+Resultado:
 
-<p align="center">
-    <img alt="APINodeCourrancyConverterDireta" src="https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG">
-</p>
+{
+  "result": 4.9406
+}
 
 Exemplo Conversão Indireta:
 http://localhost:8001/convert/USD/BRL/10
 
-![Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCurrancyConverterIndireta.PNG)
+Resultado:
 
+{
+  "result": 49.406
+}
 
 ```
 
