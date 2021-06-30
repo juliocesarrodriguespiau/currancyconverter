@@ -1,7 +1,7 @@
 <h1 align="center">Api Currancy Converter</h1>
 
 ## 📝 **Sobre**
-Exemplo de Api de Conversão de moedas, utilizando uma API [ExhangeRate-API](https://www.exchangerate-api.com/docs/overview).
+Exemplo de Api de Conversão direta e indireta de moedas, utilizando uma API [ExhangeRate-API](https://www.exchangerate-api.com/docs/overview) como fonte de atualizada de contação e taxa de conversão.
 
 ## 🔨 **Tecnologias Utilizadas**
 
@@ -50,8 +50,19 @@ http://localhost:8001/convert/USD/BRL/1
 ```
 ### Como executar as API's
 ```
-MÉTODO GET
+Através do MÉTODO GET exibimos a conversão direta de qualquer moeda passadas pelos parâmetros da request:
+
+Exemplo Conversão Direta:
 http://localhost:8001/convert/USD/BRL/1
+
+[Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG)
+
+Exemplo Conversão Indireta:
+http://localhost:8001/convert/USD/BRL/10
+
+[Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCurrancyConverterIndireta.PNG)
+
+
 ```
 
 Desenvolvido por [Júlio César Rodrigues Piau](https://github.com/juliocesarrodriguespiau/) ;D 🚀
