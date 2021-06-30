@@ -48,6 +48,10 @@ $ node src/index.js
 MÉTODO GET
 http://localhost:8001/convert/USD/BRL/1
 ```
-
+### Como executar as API's
+```
+MÉTODO GET
+http://localhost:8001/convert/USD/BRL/1
+```
 
 Desenvolvido por [Júlio César Rodrigues Piau](https://github.com/juliocesarrodriguespiau/) ;D 🚀
