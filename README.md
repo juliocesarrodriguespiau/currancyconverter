@@ -6,34 +6,40 @@ Exemplo de Api de Conversão de moedas, utilizando uma API [ExhangeRate-API](htt
 ## 🔨 **Tecnologias Utilizadas**
 
 - [Javascript](https://www.javascript.com/)
-- [NodeJS](https://nodejs.org/pt-br/about/)
+- [NodeJS](https://nodejs.org/en/)
 
 ## 📚 **Requisitos para o ambiente**
-- Node v14.16.1
-- Express
-- Axios
-- Cors
+Para podermos começar, iremos precisar instalar em sua máquina as seguintes ferramentas:
 
-## 🚀 **Começando**
+Um bom editor de códigos como [VSCode](https://code.visualstudio.com/) para abrir o projeto e ter acesso ao código.
+
+Uma ferramenta para executar os testes e requisições da API como o [Insomnia](https://insomnia.rest/download). 
+
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Cors](https://www.npmjs.com/package/cors)
+
+### Instale as dependências, frameworks e bibliotecas
+```sh
+$ npm install
+$ npm start
+$ npm install express
+$ npm install axios
+$ npm install cors
+```
+
+## 🚀 **Começando - Radando o Backend**
 
 ### Clone o projeto do repositório com o comando abaixo
 ```sh
 $ git clone https://github.com/juliocesarrodriguespiau/currancyconverter
 ```
 
-### Instale as dependências, frameworks e bibliotecas
-```sh
-$ npm install
-$ npm install express
-$ npm install axios
-$ npm install cors
-```
-
 ### Execute o projeto
 ```sh
 $ node src/index.js
 ```
-
 
 ## ⚙️ **Obtendo os resultados**
 
