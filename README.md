@@ -55,12 +55,12 @@ Através do MÉTODO GET exibimos a conversão direta de qualquer moeda passadas 
 Exemplo Conversão Direta:
 http://localhost:8001/convert/USD/BRL/1
 
-[Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG)
+![Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCourrancyConverterDireta.PNG)
 
 Exemplo Conversão Indireta:
 http://localhost:8001/convert/USD/BRL/10
 
-[Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCurrancyConverterIndireta.PNG)
+![Requisição](https://github.com/juliocesarrodriguespiau/currancyconverter/blob/main/src/assets/APINodeCurrancyConverterIndireta.PNG)
 
 
 ```
