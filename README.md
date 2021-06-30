@@ -48,14 +48,21 @@ $ node src/index.js
 MÉTODO GET
 http://localhost:8001/convert/USD/BRL/1
 ```
-### Como executar as API's
+### Como executar as API Currancy Converter
 ```
-Através do MÉTODO GET exibimos a conversão direta de qualquer moeda passadas pelos parâmetros da request:
+
+• Substitua `USD` pelo código que deseja usar como moeda base.
+
+• Substitua `BRL` pelo código que deseja usar como moeda-alvo.
+
+Os códigos de moeda (USD, BRL, ARS) seguem o padrão [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)
+
+Através da API Currancy Converter exibimos a conversão direta das moedas passadas pelos parâmetros da request:
 
 Exemplo Conversão Direta:
 http://localhost:8001/convert/USD/BRL/1
 
-Resultado:
+Resultado/Reposta:
 
 {
   "result": 4.9406
@@ -64,12 +71,11 @@ Resultado:
 Exemplo Conversão Indireta:
 http://localhost:8001/convert/USD/BRL/10
 
-Resultado:
+Resultado/Resposta:
 
 {
   "result": 49.406
 }
-
 ```
 
 Desenvolvido por [Júlio César Rodrigues Piau](https://github.com/juliocesarrodriguespiau/) ;D 🚀
